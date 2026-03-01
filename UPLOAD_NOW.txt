@@ -1,0 +1,76 @@
+📤 修行之路 — 立即上傳至 GitHub 三步指南
+
+===============================================
+
+⏱️ 耗時：5 分鐘
+
+===============================================
+
+## 步驟 1: 在 GitHub 創建倉庫（2 分鐘）
+
+1. 進 https://github.com/new
+2. 填寫:
+   - Repository name: `S5-ICT-Python-RPG`
+   - Description: `修行之路：S5 Python 古風 RPG 技能樹`
+   - Public ✅ (勾選)
+   - Do not initialize ⬜ (不勾)
+3. 點「Create repository」
+4. **複製倉庫 URL**
+   例：https://github.com/your-username/S5-ICT-Python-RPG.git
+
+===============================================
+
+## 步驟 2: 執行上傳命令（3 分鐘）
+
+### 方式 A: 使用一鍵腳本（最簡單）
+
+```bash
+cd /home/node/.openclaw/workspace/S5-ICT-Python-RPG
+bash upload-to-github.sh
+```
+
+然後按提示輸入 GitHub URL（從步驟 1 複製）
+
+### 方式 B: 手動上傳（如腳本失敗）
+
+```bash
+cd /home/node/.openclaw/workspace/S5-ICT-Python-RPG
+git branch -M main
+git remote add origin https://github.com/your-username/S5-ICT-Python-RPG.git
+git push -u origin main
+```
+
+（記得替換 URL 中的 your-username）
+
+===============================================
+
+## 步驟 3: 驗證上傳成功（可選）
+
+進 https://github.com/your-username/S5-ICT-Python-RPG
+
+應看到這些文件：
+  ✓ README.md
+  ✓ skill-tree-ancient.html
+  ✓ supabase-schema.sql
+  ✓ STARTUP_GUIDE.md
+  ✓ CHECKLIST.md
+  ✓ 其他 8 個文件
+
+===============================================
+
+✅ 完成！代碼已上傳至 GitHub
+
+===============================================
+
+💡 下一步（可選）：啟用 GitHub Pages 讓班級訪問網頁版
+
+1. 倉庫頁面 → Settings → Pages
+2. Branch: main / Folder: / (root)
+3. 等 2 分鐘
+4. 訪問：https://your-username.github.io/S5-ICT-Python-RPG/skill-tree-ancient.html
+
+===============================================
+
+📍 倉庫位置：
+  https://github.com/your-username/S5-ICT-Python-RPG
+
