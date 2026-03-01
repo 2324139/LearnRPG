@@ -1,0 +1,23 @@
+# Supabase 敏感信息
+.env
+.env.local
+.env.*.local
+
+# 系統文件
+.DS_Store
+Thumbs.db
+
+# 編輯器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node modules (若未來使用)
+node_modules/
+npm-debug.log
+
+# 本地測試文件
+test-local.html
+debug.log
