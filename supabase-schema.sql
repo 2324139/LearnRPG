@@ -247,8 +247,8 @@ ALTER TABLE learning_logs ENABLE ROW LEVEL SECURITY;
 CREATE POLICY "skills_public_read" ON skills
   FOR SELECT USING (true);
 
-CREATE POLICY "student_progress_user_read" ON student_progress
-  FOR SELECT USING (student_id = current_user_id() OR true);
+CREATE POLICY "student_progress_public_read" ON student_progress
+  FOR SELECT USING (true);
 
 -- ============================================
 -- 完成初始化
